@@ -1,0 +1,66 @@
+[
+    {
+        "id": "58e7c00d2a5a0",
+        "address": "Drejøgade 35",
+        "price": "33333333",
+        "city": "København Ø",
+        "zipcode": "2100",
+        "lat": "55.7119921",
+        "lng": "12.570981399999937",
+        "rooms": "14",
+        "sizem2": "140",
+        "img": [
+            "img14.jpg",
+            "img3.jpg",
+            "img1.jpg"
+        ]
+    },
+    {
+        "id": "58e7c01c8f8ec",
+        "address": "Lygten 37",
+        "price": "222222",
+        "city": "København NV",
+        "zipcode": "2400",
+        "lat": "55.70394599999999",
+        "lng": "12.53749300000004",
+        "rooms": "9",
+        "sizem2": "120",
+        "img": [
+            "img8.jpg",
+            "img10.jpg",
+            "img3.jpg"
+        ]
+    },
+    {
+        "id": "58e7c02d0605c",
+        "address": "Rådhuspladsen 1",
+        "price": "333333",
+        "city": "København V",
+        "zipcode": "1550",
+        "lat": "55.67563699999999",
+        "lng": "12.56954399999995",
+        "rooms": "2",
+        "sizem2": "10",
+        "img": [
+            "img3.jpg",
+            "img8.jpg",
+            "img1.jpg"
+        ]
+    },
+    {
+        "id": "58e7c082a802e",
+        "address": "Rebæk Søpark 5",
+        "price": "444444",
+        "city": "København K",
+        "zipcode": "2650",
+        "lat": "55.662501",
+        "lng": "12.457493999999997",
+        "rooms": "6",
+        "sizem2": "30",
+        "img": [
+            "img1.jpg",
+            "img8.jpg",
+            "img3.jpg"
+        ]
+    }
+]

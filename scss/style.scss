@@ -1,0 +1,59 @@
+//normalize
+@import "normalize";
+//variables
+@import "variables";
+//mixins
+@import "mixins";
+//sass flexbox
+@import "sass-flexbox";
+
+@import "bourbon/bourbon";
+
+// HOVER.css LIBRARY
+@import "hover/hover";
+//@import "hover/options";
+//@import "hover/mixins";
+//@import "hover/hacks";
+//@import "hover/effects/2d-transitions/forward";
+//@import "hover/effects/2d-transitions/sink";
+//@import "hover/effects/2d-transitions/shrink";
+//@import "hover/effects/border-transitions/underline-from-left";
+//@import "hover/effects/background-transitions/radial-out";
+//@import "hover/effects/background-transitions/bounce-to-right";
+//@import "hover/effects/icons/icon-bounce";
+//@import "hover/effects/icons/icon-back";
+
+//typography
+@import "typography";
+
+
+//breakpoints MOBILE FIRST
+
+// working from base (mobile)
+@import "breakpoints/base";
+
+// smartphones (landscape)
+@media only screen and (min-width: 480px) {
+  @import "breakpoints/480px";
+}
+// ipad (portrait)
+@media only screen and (min-width: 768px) {
+  @import "breakpoints/768px";
+}
+// ipad (landscape)
+@media only screen and (min-width: 1024px) {
+  @import "breakpoints/1024px";
+}
+// desktop, laptops
+@media only screen and (min-width: 1240px) {
+  @import "breakpoints/1240px";
+}
+
+//animations from animate.css library
+@import "animate";
+
+//sweet alert
+@import "sweetalert";
+
+
+

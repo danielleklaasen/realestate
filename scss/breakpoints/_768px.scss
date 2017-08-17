@@ -1,0 +1,120 @@
+.wrapper{
+  width: 760px;
+}
+
+.space-short {
+  height: 70px;
+}
+
+/* NAVIGATION */
+#mainHeader {
+  nav {
+    a {
+      &:first-child {
+        display: block;
+      }
+      &:nth-child(2) {
+        display: block;
+      }
+      &:not(:last-child) {
+        @include underline-from-left();
+      }
+    }
+  }
+}
+
+#up-button{
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+.navigation-overlay{
+  .mobile-buttons{
+
+      display: none;
+
+  }
+  a{
+    &:hover{
+      color: $highlight-color;
+      @include rotate();
+    }
+  }
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+#front{
+  h1{
+    font-size: 10em;
+  }
+}
+
+#propertiesList{
+  .property-item{
+    padding: 40px;
+
+    .property-img{
+      width: 240px;
+
+    }
+  }
+}
+
+/****************************************************
+             SLIDER
+****************************************************/
+
+.slider{
+  .prev, .next{
+    padding: 21px;
+    margin-top: -47px;
+  }
+}
+/****************************************************
+             WDW landing
+****************************************************/
+
+
+#wdw-landing{
+  .xs{
+    font-size: 1.4em;
+  }
+  .headline{
+    font-size: 2em;
+    line-height: 1.3em;
+  }
+  .wrapper{
+    .button-wrapper{
+      .button2{
+        transition: 0.2s all;
+        &:hover{
+          color: $highlight-color;
+        }
+      }
+    }
+  }
+}
+
+/****************************************************
+             DISCOVER
+****************************************************/
+
+.discover-grid{
+  .background-image{
+    .background-image-overlay{
+      transition: 0.2s all;
+      cursor: pointer;
+      &:hover{
+        background-color: transparent;
+        a{
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

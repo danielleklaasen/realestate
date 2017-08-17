@@ -1,0 +1,16 @@
+[
+    {
+        "id": "58f5e40990420",
+        "email": "danielleklaasen@gmail.com",
+        "password": "test123",
+        "active": 1,
+        "rights": 10
+    },
+    {
+        "id": "5902fdbd9aeb5",
+        "email": "daantje_1989@hotmail.com",
+        "password": "test123",
+        "active": 0,
+        "rights": 1
+    }
+]
